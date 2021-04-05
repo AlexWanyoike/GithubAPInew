@@ -9,6 +9,13 @@ export class GithubProfileCardComponent implements OnInit {
 
   @Input() githubProfile:any;
   
+  private _today = Date();
+  public get today() {
+    return this._today;
+  }
+  public set today(value) {
+    this._today = value;
+  }
 
   constructor() { }
 

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule , routingComponents} from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GithubapipipePipe } from './githubapipipe.pipe';
 import { FormsModule } from '@angular/forms';
@@ -23,7 +23,8 @@ import { GithubProfileDataComponent } from './github-profile-data/github-profile
     GithubProfileComponent,
     GithubRepositoryComponent,
     GithubAppComponent,
-    GithubProfileDataComponent
+    GithubProfileDataComponent,
+    routingComponents,
   ],
   imports: [
     BrowserModule,

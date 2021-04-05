@@ -5,7 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
 {path: 'user', component: GithubProfileComponent},
-{path: 'Repository' , component: GithubRepositoryComponent}
+{path: 'repository' , component: GithubRepositoryComponent}
 
 ];
 
@@ -14,4 +14,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponent = [GithubProfileComponent, GithubRepositoryComponent]
+export const routingComponents = [GithubProfileComponent, GithubRepositoryComponent]
